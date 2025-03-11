@@ -32,4 +32,17 @@ email:
   task-change:
     subject: ${EMAIL_TASK_CHANGE_SUBJECT}
     recipient: ${EMAIL_TASK_CHANGE_RECIPIENT}
+custom:
+  logging:
+    enabled: true
+    level: info
+#logging:
+#  level:
+#    root: DEBUG
+#    org.springframework: DEBUG
+#    org.springframework.boot.autoconfigure: DEBUG
+#    org.springframework.boot.context.config: DEBUG
+#    org.springframework.boot.logging: TRACE
+#    org.springframework.boot.autoconfigure.condition: TRACE
+#debug: true
 
